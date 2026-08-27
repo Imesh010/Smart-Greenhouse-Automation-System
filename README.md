@@ -1,2 +1,4 @@
 # Smart-Greenhouse-Automation-System
-ESP32-based smart greenhouse system using ESP-NOW wireless sensor nodes to monitor temperature and humidity across multiple zones, with automated control of watering, exhaust fans, and humidity regulation.
+The Smart Greenhouse Automation System is an IoT-based monitoring and control solution designed to maintain optimal growing conditions across a greenhouse divided into multiple zones. Three ESP32 Super Mini sensor nodes, each equipped with a DHT22 sensor, continuously measure temperature and humidity in their respective zones and transmit readings wirelessly to a central ESP32 master unit using the ESP-NOW protocol — eliminating the need for a WiFi router or internet connection for core operation.
+
+The master unit aggregates data from all zones and will use it to automatically control a water pump, exhaust fans, and a humidity system, keeping conditions within target ranges without manual intervention. The project is built with PlatformIO for reliable, reproducible firmware builds across all nodes.
